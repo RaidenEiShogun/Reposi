@@ -1,10 +1,10 @@
 package lesson7files.HW.Users;
 
-import lesson7files.HW.Interfaces.UserType;
+import lesson7files.HW.Interfaces_UserType.PremiumUserType;
 
-public class PremiumUser implements UserType {
+public class PremiumUser implements PremiumUserType {
     @Override
-    public String getUserStatus() {
+    public String getPremiumUserStatus() {
         return "Premium Status";
     }
 }

@@ -1,6 +1,6 @@
 package lesson7files.HW;
 
-import lesson7files.HW.Interfaces.UserType;
+import lesson7files.HW.Interfaces_UserType.UserType;
 
 public class User implements UserType {
     private String name;

@@ -1,22 +1,28 @@
 package lesson7files.HW;
 
 public class Currency {
-    private String valueCode;
-    private double rate;
 
-    public String getValueCode() {
-        return valueCode;
-    }
+        private String valueCode;
+        private double rate;
 
-    public void setValueCode(String valueCode) {
-        this.valueCode = valueCode;
-    }
+        public String getValueCode() {
+            return valueCode;
+        }
 
-    public double getRate() {
-        return rate;
-    }
+        public void setValueCode(String valueCode) {
+            this.valueCode = valueCode;
+        }
 
-    public void setRate(double rate) {
-        this.rate = rate;
-    }
+        public double getRate() {
+            return rate;
+        }
+
+        public void setRate(double rate) {
+            this.rate = rate;
+        }
+
+        @Override
+        public String toString() {
+            return valueCode;
+        }
 }
